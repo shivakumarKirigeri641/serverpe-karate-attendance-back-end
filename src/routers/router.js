@@ -10,7 +10,7 @@ router.get("/karate-branches",async(req,res)=>{
     try {
         const student_id=1001;
         //const result=await repo.getKarateBranches(req.query.studentId);
-        await validateKarateBranchesRequest(req);
+        //await validateKarateBranchesRequest(req);
         const result=await repo.getKarateBranches(student_id);
         res.json(result);
     } catch (error) {
