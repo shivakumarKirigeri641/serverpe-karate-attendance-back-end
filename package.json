@@ -1,0 +1,29 @@
+{
+  "name": "serverpe-karate-attendance-back-end",
+  "version": "1.0.0",
+  "description": "Karate class portal for attendance recording",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivakumarKirigeri641/serverpe-karate-attendance-back-end.git"
+  },
+  "author": "Shivakumar Kirigeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivakumarKirigeri641/serverpe-karate-attendance-back-end/issues"
+  },
+  "homepage": "https://github.com/shivakumarKirigeri641/serverpe-karate-attendance-back-end#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.18.0"
+  }
+}
